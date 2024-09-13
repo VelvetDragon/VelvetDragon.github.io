@@ -93,15 +93,20 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section className="py-16 ">
-        <h3 className="text-4xl text-center font-extrabold mb-10 ">
-          My Skills
-        </h3>
+      <section className="relative py-16">
 
-        {/* Skill Categories */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Languages */}
-          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-105 transform transition duration-500 ease-in-out">
+        <div className="absolute inset-0 flex justify-center items-center">
+          <div className="absolute top-0 left-0 w-24 h-24 bg-teal-300 rounded-full opacity-50 animate-bubble"></div>
+          <div className="absolute top-10 left-20 w-32 h-32 bg-blue-300 rounded-full opacity-40 animate-bubble"></div>
+          <div className="absolute bottom-10 right-10 w-48 h-48 bg-purple-300 rounded-full opacity-30 animate-bubble"></div>
+        </div>
+
+        <h3 className="text-4xl text-center font-extrabold mb-10 relative z-10">My Skills</h3>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
+
+          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-110 transform transition duration-500 ease-in-out relative overflow-hidden">
+            <div className="absolute inset-0 bg-opacity-20 bg-white rounded-full blur-lg"></div>
             <h4 className="text-2xl font-bold mb-4 text-teal-300">Languages</h4>
             <div className="flex justify-center gap-6 flex-wrap">
               <span className="bg-gradient-to-r from-teal-300 to-teal-500 px-4 py-2 rounded-lg shadow-md text-lg">Python</span>
@@ -112,8 +117,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Frameworks */}
-          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-105 transform transition duration-500 ease-in-out">
+
+          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-110 transform transition duration-500 ease-in-out relative overflow-hidden">
+            <div className="absolute inset-0 bg-opacity-20 bg-white rounded-full blur-lg"></div>
             <h4 className="text-2xl font-bold mb-4 text-indigo-300">Frontend Technologies</h4>
             <div className="flex justify-center gap-6 flex-wrap">
               <span className="bg-gradient-to-r from-indigo-300 to-indigo-500 px-4 py-2 rounded-lg shadow-md text-lg">HTML</span>
@@ -124,8 +130,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Data Analysis */}
-          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-105 transform transition duration-500 ease-in-out">
+
+          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-110 transform transition duration-500 ease-in-out relative overflow-hidden">
+            <div className="absolute inset-0 bg-opacity-20 bg-white rounded-full blur-lg"></div>
             <h4 className="text-2xl font-bold mb-4 text-purple-300">Data Analysis</h4>
             <div className="flex justify-center gap-6 flex-wrap">
               <span className="bg-gradient-to-r from-purple-300 to-purple-500 px-4 py-2 rounded-lg shadow-md text-lg">Pandas</span>
@@ -139,8 +146,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Machine Learning */}
-          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-105 transform transition duration-500 ease-in-out">
+
+          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-110 transform transition duration-500 ease-in-out relative overflow-hidden">
+            <div className="absolute inset-0 bg-opacity-20 bg-white rounded-full blur-lg"></div>
             <h4 className="text-2xl font-bold mb-4 text-pink-300">Machine Learning</h4>
             <div className="flex justify-center gap-6 flex-wrap">
               <span className="bg-gradient-to-r from-pink-300 to-pink-500 px-4 py-2 rounded-lg shadow-md text-lg">Scikit-Learn</span>
@@ -149,19 +157,23 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Tools */}
-          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-105 transform transition duration-500 ease-in-out">
+
+          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-110 transform transition duration-500 ease-in-out relative overflow-hidden">
+            <div className="absolute inset-0 bg-opacity-20 bg-white rounded-full blur-lg"></div>
             <h4 className="text-2xl font-bold mb-4 text-yellow-300">Tools</h4>
             <div className="flex justify-center gap-6 flex-wrap">
               <span className="bg-gradient-to-r from-yellow-300 to-yellow-500 px-4 py-2 rounded-lg shadow-md text-lg">Git</span>
               <span className="bg-gradient-to-r from-yellow-300 to-yellow-500 px-4 py-2 rounded-lg shadow-md text-lg">Firebase</span>
+              <span className="bg-gradient-to-r from-yellow-300 to-yellow-500 px-4 py-2 rounded-lg shadow-md text-lg">Jupyter Notebook</span>
             </div>
           </div>
         </div>
       </section>
 
 
+
       <section >
+
         <h3 className="text-4xl py-1 text-center font-bold">Projects</h3>
         <div className={`text-md py-5 leading-8 text-gray-800 dark:text-gray-300`}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
