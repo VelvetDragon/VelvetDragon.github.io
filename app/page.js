@@ -8,7 +8,7 @@ import tryImage from "../public/me.jpg";
 
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <main className={`${darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-800"} px-10 md:px-20 lg:px-40`}>
