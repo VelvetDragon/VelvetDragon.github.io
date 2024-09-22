@@ -55,7 +55,8 @@ export default function Home() {
             <Image className="scale-125 rounded-full" src={tryImage} layout="fill" objectFit="cover" />
           </div>
 
-          <div className="text-5xl flex justify-center gap-16 py-7 text-gray-600">
+          <div className="text-3xl md:text-5xl flex justify-center gap-4 md:gap-16 py-7 text-gray-600">
+
             <a
               href="https://www.instagram.com/su._.one/"
               target="_blank"
