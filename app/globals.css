@@ -165,5 +165,23 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
+@media only screen and (max-width: 600px) {
+  .photo-container {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
-
+@media only screen and (max-width: 600px) {
+  .floating-circle {
+    position: relative; /* or adjust its position */
+    z-index: 1;
+  }
+  .instagram-logo {
+    z-index: 2;
+  }
+}
