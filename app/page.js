@@ -181,7 +181,7 @@ export default function Home() {
             {/* Potato Disease Classification */}
             <div
               className="relative text-center shadow-lg p-10 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 text-white overflow-hidden group cursor-pointer"
-              onClick={() => window.open('https://github.com/your-potato-repo-link', '_blank')}
+              onClick={() => window.open('https://github.com/VelvetDragon/potato-disease-classifier-using-cnn', '_blank')}
             >
               <h4 className="text-lg font-medium pb-4">Potato Disease Classification Using CNN</h4>
               <p>A project to classify potato diseases using CNNs, FastAPI, TensorFlow Lite, and GCP.</p>
