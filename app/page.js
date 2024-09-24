@@ -174,49 +174,9 @@ export default function Home() {
 
 
       <section >
-
         <h3 className="text-4xl py-1 text-center font-bold">Projects</h3>
         <div className={`text-md py-5 leading-8 text-gray-800 dark:text-gray-300`}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {/* Potato Disease Classification */}
-            <div
-              className="relative text-center shadow-lg p-10 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 text-white overflow-hidden group cursor-pointer"
-              onClick={() => window.open('https://github.com/VelvetDragon/potato-disease-classifier-using-cnn', '_blank')}
-            >
-              <h4 className="text-lg font-medium pb-4">Potato Disease Classification Using CNN</h4>
-              <p>A project to classify potato diseases using CNNs, FastAPI, TensorFlow Lite, and GCP.</p>
-
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black to-black flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-500">
-                <a
-                  href="https://github.com/your-potato-repo-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-5xl text-white"
-                >
-                  <AiFillGithub />
-                </a>
-              </div>
-            </div>
-
-            {/* Password Strength Prediction */}
-            <div
-              className="relative text-center shadow-lg p-10 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white overflow-hidden group cursor-pointer"
-              onClick={() => window.open('https://github.com/VelvetDragon/Password-Strength-Prediction-using-NLP', '_blank')}
-            >
-              <h4 className="text-lg font-medium pb-4">Password Strength Prediction using NLP</h4>
-              <p>A system to predict password strength using NLP techniques and classification models.</p>
-
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black to-black flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-500">
-                <a
-                  href="https://github.com/VelvetDragon/Password-Strength-Prediction-using-NLP"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-5xl text-white"
-                >
-                  <AiFillGithub />
-                </a>
-              </div>
-            </div>
 
             {/* Customer Churn Analysis */}
             <div
@@ -278,9 +238,29 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Password Strength Prediction */}
+            <div
+              className="relative text-center shadow-lg p-10 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white overflow-hidden group cursor-pointer"
+              onClick={() => window.open('https://github.com/VelvetDragon/Password-Strength-Prediction-using-NLP', '_blank')}
+            >
+              <h4 className="text-lg font-medium pb-4">Password Strength Prediction using NLP</h4>
+              <p>A system to predict password strength using NLP techniques and classification models.</p>
+
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black to-black flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-500">
+                <a
+                  href="https://github.com/VelvetDragon/Password-Strength-Prediction-using-NLP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-5xl text-white"
+                >
+                  <AiFillGithub />
+                </a>
+              </div>
+            </div>
+
             {/* Sales Insights Dashboard */}
             <div
-              className="relative text-center shadow-lg p-10 rounded-xl bg-gradient-to-r from-teal-500 to-green-600 text-white overflow-hidden group cursor-pointer"
+              className="relative justify-center text-center shadow-lg p-10 rounded-xl bg-gradient-to-r from-teal-500 to-green-600 text-white overflow-hidden group cursor-pointer"
               onClick={() => window.open('https://github.com/your-sales-repo-link', '_blank')}
             >
               <h4 className="text-lg font-medium pb-4">Sales Insights Dashboard Using Power BI</h4>
@@ -297,9 +277,12 @@ export default function Home() {
                 </a>
               </div>
             </div>
+
           </div>
         </div>
       </section>
+
+
       <footer className="py-10 text-center">
         <p className="text-sm text-gray-600 dark:text-white">© 2024 Suwan Aryal. All rights reserved.</p>
       </footer>
