@@ -261,14 +261,14 @@ export default function Home() {
             {/* Sales Insights Dashboard */}
             <div
               className="relative justify-center text-center shadow-lg p-10 rounded-xl bg-gradient-to-r from-teal-500 to-green-600 text-white overflow-hidden group cursor-pointer"
-              onClick={() => window.open('https://github.com/your-sales-repo-link', '_blank')}
+              onClick={() => window.open('https://github.com/VelvetDragon/sales-insights', '_blank')}
             >
               <h4 className="text-lg font-medium pb-4">Sales Insights Dashboard Using Power BI</h4>
               <p>Interactive dashboard to visualize sales data with Power BI and SQL.</p>
 
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black to-black flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-500">
                 <a
-                  href="https://github.com/your-sales-repo-link"
+                  href="https://github.com/VelvetDragon/sales-insights"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-5xl text-white"
