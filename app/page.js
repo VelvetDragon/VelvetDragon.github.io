@@ -165,6 +165,27 @@ export default function Home() {
         <div className="text-md py-5 leading-8 text-gray-300">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
+
+            {/* Emotional Disney */}
+            <div
+              className="relative text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden group cursor-pointer"
+              onClick={() => window.open('https://github.com/VelvetDragon/disney-films-emotion-NLP', '_blank')}
+            >
+              <h4 className="text-lg font-medium pb-4 text-teal-300">Emotional Disney</h4>
+              <p className="text-white">Honors Research Project on emotion detection in different Disney Films</p>
+
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-800 to-black flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-500">
+                <a
+                  href="https://github.com/VelvetDragon/disney-films-emotion-NLP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-5xl text-teal-300"
+                >
+                  <AiFillGithub />
+                </a>
+              </div>
+            </div> 
+
             {/* Customer Churn Analysis */}
             <div
               className="relative text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden group cursor-pointer"
