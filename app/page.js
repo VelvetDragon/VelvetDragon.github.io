@@ -25,7 +25,7 @@ export default function Home() {
             </li> */}
             <li>
               <a
-                className="bg-teal-400 text-white px-4 py-2 rounded-md ml-8 shadow-md hover:opacity-90"
+                className="bg-teal-400 text-white px-4 py-2 animate-glow-border rounded-md ml-8 shadow-md hover:opacity-90"
                 href="https://drive.google.com/file/d/1E_6P5KdHwyc6ZdkUmyTvaNh7-Fj6w6rv/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -48,7 +48,7 @@ export default function Home() {
             Passionate about <span className="text-teal-300">Data Analysis</span> and <span className="text-teal-300">Machine Learning</span>. Always eager to <span className="text-teal-300">learn and collaborate</span>!
           </p>
 
-          <div className="relative mx-auto bg-gradient-to-b from-white via-teal-500 to-teal-600 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 shadow-xl">
+          <div className="relative mx-auto animate-border-glow bg-gradient-to-b from-white via-teal-500 to-teal-600 rounded-full w-80 h-80 mt-10 mb-10 overflow-hidden md:h-96 md:w-96 shadow-xl">
             <Image className="scale-125 rounded-full" src={tryImage} layout="fill" objectFit="cover" />
           </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
               href="https://www.instagram.com/s_.uwan/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-400 transition-colors"
+              className="hover:text-teal-400 animate-float transition-colors"
             >
               <AiFillInstagram />
             </a>
@@ -65,7 +65,7 @@ export default function Home() {
               href="https://www.facebook.com/suwan.aryal.3"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-400 transition-colors"
+              className="hover:text-teal-400 animate-float transition-colors"
             >
               <AiFillFacebook />
             </a>
@@ -73,7 +73,7 @@ export default function Home() {
               href="https://github.com/VelvetDragon"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-400 transition-colors"
+              className="hover:text-teal-400 animate-float transition-colors"
             >
               <AiFillGithub />
             </a>
@@ -81,7 +81,7 @@ export default function Home() {
               href="mailto:aryalsuwan.2003@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-400 transition-colors"
+              className="hover:text-teal-400 animate-float transition-colors"
             >
               <MdEmail />
             </a>
@@ -160,7 +160,7 @@ export default function Home() {
 
 
       <section className="bg-gray-900 py-16">
-        <h3 className="text-4xl py-1 text-center font-bold text-white">Projects</h3>
+        <h3 className="text-4xl py-1 mb-10 text-center font-bold text-white">Projects</h3>
 
         <div className="text-md py-5 leading-8 text-gray-300">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -168,7 +168,7 @@ export default function Home() {
 
             {/* Emotional Disney */}
             <div
-              className="relative text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden group cursor-pointer"
+              className="relative  text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden  group cursor-pointer "
               onClick={() => window.open('https://github.com/VelvetDragon/disney-films-emotion-NLP', '_blank')}
             >
               <h4 className="text-lg font-medium pb-4 text-teal-300">Emotional Disney</h4>
@@ -179,7 +179,7 @@ export default function Home() {
                   href="https://github.com/VelvetDragon/disney-films-emotion-NLP"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-5xl text-teal-300"
+                  className="text-5xl text-white"
                 >
                   <AiFillGithub />
                 </a>
@@ -199,7 +199,7 @@ export default function Home() {
                   href="https://github.com/VelvetDragon/Churn-Analysis-and-Prediction"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-5xl text-teal-300"
+                  className="text-5xl text-white"
                 >
                   <AiFillGithub />
                 </a>
@@ -219,7 +219,7 @@ export default function Home() {
                   href="https://github.com/VelvetDragon/Sentiment-Analysis-Amazon-Reviews"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-5xl text-teal-300"
+                  className="text-5xl text-white"
                 >
                   <AiFillGithub />
                 </a>
@@ -228,7 +228,7 @@ export default function Home() {
 
             {/* Airline Ticket Fare Prediction */}
             <div
-              className="relative text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden group cursor-pointer"
+              className="relative text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden group cursor-pointer "
               onClick={() => window.open('https://github.com/VelvetDragon/Flight-Ticket-Price-Prediction-Using-ML', '_blank')}
             >
               <h4 className="text-lg font-medium pb-4 text-teal-300">Airlines Ticket Fare Prediction</h4>
@@ -239,7 +239,7 @@ export default function Home() {
                   href="https://github.com/VelvetDragon/Flight-Ticket-Price-Prediction-Using-ML"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-5xl text-teal-300"
+                  className="text-5xl text-white"
                 >
                   <AiFillGithub />
                 </a>
@@ -248,7 +248,7 @@ export default function Home() {
 
             {/* Password Strength Prediction */}
             <div
-              className="relative text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden group cursor-pointer"
+              className="relative text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden  group cursor-pointer"
               onClick={() => window.open('https://github.com/VelvetDragon/Password-Strength-Prediction-using-NLP', '_blank')}
             >
               <h4 className="text-lg font-medium pb-4 text-teal-300">Password Strength Prediction using NLP</h4>
@@ -259,7 +259,7 @@ export default function Home() {
                   href="https://github.com/VelvetDragon/Password-Strength-Prediction-using-NLP"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-5xl text-teal-300"
+                  className="text-5xl text-white"
                 >
                   <AiFillGithub />
                 </a>
@@ -279,7 +279,7 @@ export default function Home() {
                   href="https://github.com/VelvetDragon/sales-insights"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-5xl text-teal-300"
+                  className="text-5xl text-white"
                 >
                   <AiFillGithub />
                 </a>
