@@ -6,27 +6,26 @@ import { MdEmail } from "react-icons/md";
 import Image from "next/image";
 import tryImage from "../public/me.jpg";
 
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
   return (
     <main className={`${darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-800"} px-10 md:px-20 lg:px-40`}>
-
-
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl transition-transform duration-300 ease-in-out hover:scale-110">Suwan Aryal</h1>
+          <h1 className="text-xl font-bold transition-transform duration-300 ease-in-out hover:scale-110">
+            Suwan Aryal
+          </h1>
           <ul className="flex items-center">
-            <li>
+            {/* <li>
               <BsFillMoonStarsFill
-                onClick={() => setDarkMode(!darkMode)}
+                //onClick={() => setDarkMode(!darkMode)}
                 className="cursor-pointer text-2xl"
               />
-            </li>
+            </li> */}
             <li>
               <a
-                className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                className="bg-gradient-to-r from-gray-700 to-gray-600 text-white px-4 py-2 rounded-md ml-8 shadow-md hover:opacity-90"
                 href="https://drive.google.com/file/d/1E_6P5KdHwyc6ZdkUmyTvaNh7-Fj6w6rv/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,11 +36,10 @@ export default function Home() {
           </ul>
         </nav>
 
-        <div className="relative bg-gradient-to-r from-teal-500 via-purple-500 to-indigo-500 py-10 text-center rounded-3xl">
-          {/* Floating Graphics */}
-          <div className="absolute top-0 left-10 w-16 h-16 bg-teal-400 rounded-full animate-bounce opacity-75"></div>
-          <div className="absolute top-10 right-0 w-20 h-20 bg-purple-400 rounded-full animate-ping"></div>
-          <div className="absolute bottom-10 left-5 w-24 h-24 bg-indigo-400 rounded-full animate-pulse"></div>
+        <div className="relative bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-10 text-center rounded-3xl shadow-lg">
+          <div className="absolute top-0 left-10 w-16 h-16 bg-gray-700 rounded-full animate-bounce opacity-80"></div>
+          <div className="absolute top-10 right-0 w-20 h-20 bg-gray-600 rounded-full animate-ping"></div>
+          <div className="absolute bottom-10 left-5 w-24 h-24 bg-gray-500 rounded-full animate-pulse"></div>
 
           <h2 className="text-5xl py-2 font-extrabold md:text-6xl text-white relative z-10">
             Suwan Aryal
@@ -50,18 +48,16 @@ export default function Home() {
             Passionate about <span className="text-teal-300">Data Analysis</span> and <span className="text-teal-300">Machine Learning</span>. Always eager to <span className="text-teal-300">learn and collaborate</span>!
           </p>
 
-          {/* Zigzag moving circular image */}
-          <div className="relative mx-auto bg-gradient-to-b from-white via-teal-500 to-teal-600 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 animate-zigzag">
+          <div className="relative mx-auto bg-gradient-to-b from-white via-teal-500 to-teal-600 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 shadow-xl">
             <Image className="scale-125 rounded-full" src={tryImage} layout="fill" objectFit="cover" />
           </div>
 
           <div className="text-3xl md:text-5xl flex justify-center gap-4 md:gap-16 py-7 text-gray-600">
-
             <a
               href="https://www.instagram.com/su._.one/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-600 transition-colors"
+              className="hover:text-teal-400 transition-colors"
             >
               <AiFillInstagram />
             </a>
@@ -69,7 +65,7 @@ export default function Home() {
               href="https://www.facebook.com/suwan.aryal.3"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-600 transition-colors"
+              className="hover:text-teal-400 transition-colors"
             >
               <AiFillFacebook />
             </a>
@@ -77,7 +73,7 @@ export default function Home() {
               href="https://github.com/VelvetDragon"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-600 transition-colors"
+              className="hover:text-teal-400 transition-colors"
             >
               <AiFillGithub />
             </a>
@@ -85,13 +81,14 @@ export default function Home() {
               href="mailto:aryalsuwan.2003@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-teal-600 transition-colors"
+              className="hover:text-teal-400 transition-colors"
             >
               <MdEmail />
             </a>
           </div>
         </div>
       </section>
+
 
       {/* Skills Section */}
       <section className="relative py-16">
@@ -106,8 +103,8 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
 
-          <div className="bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-center p-6 text-white dark:bg-gray-900 rounded-xl hover:scale-110 transform transition duration-500 ease-in-out relative overflow-hidden">
-            <div className="absolute inset-0 bg-opacity-20 bg-white rounded-full blur-lg"></div>
+          <div className="bg-gradient-to-r from-slate-950 via-gray-900 to-gray-900 text-center p-6 text-white rounded-xl hover:scale-110 transform transition duration-500 ease-in-out relative overflow-hidden">
+            <div className="absolute inset-0 bg-opacity-20"></div>
             <h4 className="text-2xl font-bold mb-4 text-teal-300">Languages</h4>
             <div className="flex justify-center gap-6 flex-wrap">
               <span className="bg-gradient-to-r from-teal-300 to-teal-500 px-4 py-2 rounded-lg shadow-md text-lg">Python</span>
