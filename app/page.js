@@ -26,7 +26,7 @@ export default function Home() {
             <li>
               <a
                 className="bg-teal-400 text-white px-4 py-2 animate-glow-border rounded-md ml-8 shadow-md hover:opacity-90"
-                href="https://drive.google.com/file/d/1E_6P5KdHwyc6ZdkUmyTvaNh7-Fj6w6rv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1p-amTSB2LEqKla27lHQfA18i6fyVh9g3/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -171,7 +171,7 @@ export default function Home() {
               className="relative  text-center shadow-lg p-10 rounded-xl bg-gray-800 text-white overflow-hidden  group cursor-pointer "
               onClick={() => window.open('https://github.com/VelvetDragon/disney-films-emotion-NLP', '_blank')}
             >
-              <h4 className="text-lg font-medium pb-4 text-teal-300">Emotional Disney</h4>
+              <h4 className="text-lg font-medium pb-4 text-teal-300"> Emotional Disney </h4>
               <p className="text-white">Honors Research Project on emotion detection in different Disney Films</p>
 
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-800 to-black flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-500">
@@ -293,7 +293,7 @@ export default function Home() {
 
 
       <footer className="py-10 text-center">
-        <p className="text-sm text-gray-600 dark:text-white">© 2024 Suwan Aryal. All rights reserved.</p>
+        <p className="text-sm text-gray-600 dark:text-white"> © 2024 Suwan Aryal. All rights reserved. </p>
       </footer>
     </main>
 
