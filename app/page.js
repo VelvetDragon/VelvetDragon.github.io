@@ -298,7 +298,7 @@ export default function Home() {
 
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-700 to-black flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-500">
                 <a
-                  href="https://github.com/VelvetDragon/disney-films-emotion-NLP"
+                  href="https://su1-honors-research.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-5xl text-teal-300 hover:scale-110 transition-transform"
